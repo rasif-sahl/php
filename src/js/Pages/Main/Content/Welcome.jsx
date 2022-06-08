@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default function Latest() {
+export default function Welcome() {
     return <div>
         <div>
             The article/content is been written by here. 
         </div>
         <div>
-           submenu
+            The submenu will be displayed here. 
         </div>
     </div>
 }

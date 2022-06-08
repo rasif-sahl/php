@@ -1,0 +1,8 @@
+@import './colors.scss';
+
+.navigation{
+    background-color: $color-nav-background;
+    min-height: 50px;
+    font-size: calc(10px + 2vmin);
+    color: $black;
+}

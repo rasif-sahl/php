@@ -1,24 +1,18 @@
 import React from 'react';
-import '../scss/App.css';
+import Navigation from "./Navigation/Navigation.jsx";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import CodingStyle from './Pages/Main/Content/CodingStyle';
+import Latest from './Pages/NewFeatures/Latest';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route exact path='/' element={<CodingStyle />} />
+        <Route path='/updates' element={<Latest/>} />
+      </Routes>
+    </Router>
   );
 }
 

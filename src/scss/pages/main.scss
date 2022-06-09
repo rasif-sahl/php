@@ -1,0 +1,33 @@
+@import '../colors.scss';
+@import './elements.scss';
+
+.content-wrapper{
+    margin-left: 300px;
+    background-color: $wild-blue-yonder;
+    width: 800px;
+    height: 100%;
+    display: block;
+    align-items: center;
+    // position: fixed;
+    position: absolute;
+    border-radius: 25px;
+    padding: 0.5rem 0rem;
+    .content-display{
+        margin: 10px;
+    }
+}
+
+.right-content-wrapper {
+    margin-left: 1150px;
+    background-color: $wild-blue-yonder;
+    width: 250px;
+    height: 100%;
+    display: block;
+    /* align-items: center; */
+    position: absolute;
+    border-radius: 25px;
+    padding: 0.5rem 0rem;
+    .right-content-display{
+        margin: 10px;
+    }
+}

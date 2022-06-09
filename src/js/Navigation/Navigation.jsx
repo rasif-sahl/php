@@ -1,20 +1,10 @@
 import React, { useState } from 'react';
-import {  Link } from "react-router-dom";
 import '../../scss/navigation.scss';
 
 export default function Navigation() 
 {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
     return (
-//   <div className="navigation">
-//     <li>
-//       <Link to="/">Home</Link>
-//     </li>
-//     <li>
-//       <Link to="/updates">Updates</Link>
-//     </li>
-//   </div>
-
         <nav className="navigation">
             <a href="/" className="brand-name">
                 PHP Tutorial
@@ -44,10 +34,13 @@ export default function Navigation()
             >
                 <ul>
                     <li>
-                        <a href="/">Introduction</a>
+                        <a href="/">Welcome</a>
                     </li>
                     <li>
-                        <a href="/updates">Updates</a>
+                        <a href="/introduction">Introduction</a>
+                    </li>
+                    <li>
+                        <a href="/codingStyle">Coding Style</a>
                     </li>
                 </ul>
             </div>

@@ -1,41 +1,44 @@
 @import './colors.scss';
 
-// .navigation{
-//     background-color: $color-nav-background;
-//     min-height: 50px;
-//     font-size: calc(10px + 2vmin);
-//     color: $black;
-// }
-
 // this is the website which I found resources to develop the navbar - https://blog.logrocket.com/create-responsive-navbar-react-css/
 .navigation {
-    height: 50px;
-    width: 100%;
-    display: flex;
+    // height: 50px;
+    // width: 100%;
+    // display: flex;
+    // align-items: center;
+    // position: relative;
+    // padding: 0.5rem 0rem;
+    // background-color: $color-nav-background;
+    // color: $black;
+    // margin-bottom: 10px;
+    height: 100%;
+    width: 250px;
+    display: block;
     align-items: center;
-    position: relative;
+    position: absolute;
     padding: 0.5rem 0rem;
-    background-color: $color-nav-background;
-    color: $black;
-    margin-bottom: 10px;
+    background-color: $wild-blue-yonder;
+    color: #000000;
+    border-radius: 25px;
 
     .brand-name {
         text-decoration: none;
         color: $black;
-        font-size: 1.3rem;
-        margin-left: 1rem;
+        font-size: 1.75rem;
+        margin-left: 2.5rem;
         font-weight: bold;
     }
     .navigation-menu {
         margin-left: auto;
     }
     .navigation-menu ul {
-        display: flex;
+        // display: flex;
+        display: block;
         padding: 0;
     }
     .navigation-menu li {
         list-style-type: none;
-        margin: 0 1rem;
+        padding: 1rem;
     }
     .navigation-menu li a {
         text-decoration: none;
@@ -44,6 +47,18 @@
         color: $black;
         font-weight: 600;
     }
+
+    .navigation-menu li:hover {
+        background-color: $tool-box;
+    }
+
+    .navigation-menu li:active {
+        background-color: $tool-box;
+    }
+
+
+
+
 
     .hamburger {
         border: 0;

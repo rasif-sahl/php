@@ -17,14 +17,15 @@
 }
 
 // code section
-.display-lineBreak {
+.display-lineBreak { 
     white-space: pre-line;
     .code-background{
-        background-color:$dark-slate-blue;
+        background-color:$tool-box;
         padding: 15px;
-        border-radius: 20px;
+        border-radius: 5px;
         color: $white;
         font-size: 14px;
+        font-weight: 500;
     }
 }
   

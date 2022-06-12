@@ -1,6 +1,6 @@
 import React from 'react';
 // import Content from '../../ReusableComponents/Content.jsx';
-import '../../../scss/pages/main.scss';
+import '../../../scss/pages/sideBar.scss';
 
 export default function CodingStyle() {
     return <div>

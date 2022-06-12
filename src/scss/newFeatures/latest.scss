@@ -1,0 +1,32 @@
+.latest-features{
+    margin-top: 300px;
+      
+    .top-left {
+        position: absolute;
+        top: 0;
+        left: 16px;
+    }
+      
+    .bottom-left {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
+    }
+      
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        .coming-soon{
+            font-size: 50px;
+        }
+    }
+      
+    hr {
+        margin: auto;
+        width: 40%;
+    }
+}

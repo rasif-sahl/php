@@ -1,0 +1,67 @@
+@import '../colors.scss';
+
+// this is the website which I found resources to develop the navbar - https://blog.logrocket.com/create-responsive-navbar-react-css/
+.sidebar {
+    height: 100%;
+    width: 20%;
+    height: 100%;
+    // padding: 0.5rem 0rem;
+    background-color: $color-main-background;
+    color: $black;
+    display: block;
+    overflow-y: auto;
+    border-right: 3px solid $wild-blue-yonder;
+    align-items: center;
+    position: absolute;
+
+    // .brand-name {
+    //     text-decoration: none;
+    //     color: $black;
+    //     font-size: 1.75rem;
+    //     margin-left: 2.5rem;
+    //     font-weight: bold;
+    // }
+
+    .navigation-menu {
+        margin-left: auto;
+    }
+    .navigation-menu ul {
+        display: block;
+        padding: 0;
+    }
+
+    // .column-1 {
+    //     float: left;
+    //     width: 30%;
+    //     padding: 10px;
+    //     height: 300px; /* Should be removed. Only for demonstration */
+    // }
+
+    // .column-2 {
+    //     float: left;
+    //     width: 70%;
+    //     padding: 10px;
+    //     height: 300px; /* Should be removed. Only for demonstration */
+    //   }
+    li {
+        list-style-type: none;
+        padding: 1rem;
+        border-bottom: 3px solid $wild-blue-yonder;
+    }
+    li a {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        color: $black;
+        font-weight: 600;
+    }
+    
+    li.active {
+        background-color: $wild-blue-yonder;
+    }
+        
+    li:hover {
+        background-color: $wild-blue-yonder;
+    }
+
+}

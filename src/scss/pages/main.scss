@@ -3,30 +3,33 @@
 
 .content-wrapper{
     margin-left: 300px;
-    background-color: $wild-blue-yonder;
-    width: 800px;
+    width: 60%;
     height: 100%;
+    background-color: $color-main-background;
+    border-right: 3px solid $wild-blue-yonder;
+    border-left: 3px solid $wild-blue-yonder;
     display: block;
     align-items: center;
-    // position: fixed;
-    position: absolute;
-    border-radius: 25px;
     padding: 0.5rem 0rem;
+    overflow-y: auto;
+    position: absolute;
+
     .content-display{
         margin: 10px;
     }
 }
 
 .right-content-wrapper {
-    margin-left: 1150px;
-    background-color: $wild-blue-yonder;
-    width: 250px;
+    margin-left: 1180px;
+    width: 19%;
     height: 100%;
     display: block;
-    /* align-items: center; */
     position: absolute;
-    border-radius: 25px;
     padding: 0.5rem 0rem;
+    overflow-y: auto;
+    border-left: 3px solid $wild-blue-yonder;
+    background-color: $color-main-background;
+
     .right-content-display{
         margin: 10px;
     }

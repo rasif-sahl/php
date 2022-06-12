@@ -1,7 +1,7 @@
 import React from 'react';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
 import {Code} from '../../ReusableComponents/Code.jsx';
-import '../../../scss/pages/main.scss';
+// import '../../../scss/pages/main.scss';
 
 export default function Introduction() {
     const h1 = "hello world";

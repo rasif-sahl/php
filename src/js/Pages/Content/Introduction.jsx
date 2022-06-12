@@ -1,7 +1,6 @@
 import React from 'react';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
 import {Code} from '../../ReusableComponents/Code.jsx';
-// import '../../../scss/pages/main.scss';
 
 export default function Introduction() {
     const h1 = "hello world";
@@ -15,7 +14,7 @@ export default function Introduction() {
     return <div>
         <div className="content-wrapper">
             <div className="content-display">
-                <H1 h1={h1} />
+                <a id="hash_link_test"><H1 h1={h1} /></a>
                 <br/>
                 <p>hello this is the first section.</p>
                 <br/>
@@ -31,6 +30,8 @@ export default function Introduction() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 The submenu will be displayed here. (Introduction)
+                <br/>
+                <a href="#hash_link_test">Click here to see the content below.</a>
             </div>
         </div>
     </div>

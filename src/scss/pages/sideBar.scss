@@ -7,20 +7,22 @@
     height: 100%;
     // padding: 0.5rem 0rem;
     background-color: $color-main-background;
-    color: $black;
+    color: $text-color;
     display: block;
     overflow-y: auto;
-    border-right: 3px solid $wild-blue-yonder;
+    border-right: 3px solid $border-color;
     align-items: center;
     position: absolute;
+    padding-bottom: 60px;
 
-    // .brand-name {
-    //     text-decoration: none;
-    //     color: $black;
-    //     font-size: 1.75rem;
-    //     margin-left: 2.5rem;
-    //     font-weight: bold;
-    // }
+    .brand-name {
+        text-decoration: none;
+        color: $text-color;
+        font-size: 1.75rem;
+        margin-left: 2.5rem;
+        font-weight: bold;
+        color: $title;
+    }
 
     .navigation-menu {
         margin-left: auto;
@@ -28,6 +30,7 @@
     .navigation-menu ul {
         display: block;
         padding: 0;
+        margin: 0;
     }
 
     // .column-1 {
@@ -46,22 +49,23 @@
     li {
         list-style-type: none;
         padding: 1rem;
-        border-bottom: 3px solid $wild-blue-yonder;
+        border-bottom: 3px solid $border-color;
+        line-height: 7px;
     }
     li a {
         text-decoration: none;
         display: block;
         width: 100%;
-        color: $black;
+        color: $text-color;
         font-weight: 600;
     }
     
     li.active {
-        background-color: $wild-blue-yonder;
+        background-color: $border-color;
     }
         
     li:hover {
-        background-color: $wild-blue-yonder;
+        background-color: $border-color;
     }
 
 }

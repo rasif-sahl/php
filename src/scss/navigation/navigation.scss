@@ -7,18 +7,19 @@
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    background-color: $white;
-    color: $black;
+    // background-color: $color-main-background;
+    color: $text-color;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
     font-weight: bold;
-    border-bottom: 3px solid $wild-blue-yonder;
+    border-bottom: 3px solid $border-color;
 
 
     .brand-name {
         text-decoration: none;
-        color: black;
-        font-size: 1.3rem;
         margin-left: 1rem;
+        color: $title;
+        font-size: 30px;
+        // -webkit-text-stroke: 0.5px $text-color;
     }
 
     .navigation-menu {
@@ -39,10 +40,10 @@
         text-decoration: none;
         display: block;
         width: 100%;
-        color: $black;
+        color: $text-color;
     }
     
     .navigation-menu li:hover {
-        color: $wild-blue-yonder;
+        color: $border-color;
     }
 }

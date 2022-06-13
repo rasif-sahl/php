@@ -1,0 +1,16 @@
+@import './colors.scss';
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $color-main-background;
+    color: $text-color;
+    text-align: center;
+    height: 20px;
+    border-top: 3px solid $border-color;
+    font-weight: 500;
+    padding:10px;
+    box-shadow: 12px 20px 20px 20px rgb(9 9 9 / 23%);
+}

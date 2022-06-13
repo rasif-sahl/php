@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SideBar from "./Navigation/SideBar/SideBar.jsx";
 import Navigation from "./Navigation/Navigation.jsx";
+import Footer from "./Footer/Footer.jsx";
 // Content
 import Welcome from './Pages/Content/Welcome.jsx';
 import Introduction from './Pages/Content/Introduction.jsx';
@@ -12,7 +13,8 @@ import Latest from './Pages/NewFeatures/Latest.jsx';
 function App() {
   return (
     <div>
-    <Router>
+      <div>
+      <Router>
         <Navigation />
         <Routes>
           <Route path="/" element={<SideBar />} >
@@ -23,6 +25,9 @@ function App() {
           <Route path="/latest" element={<Latest />} />
         </Routes>
      </Router>
+      </div>
+      <div><Footer/></div>
+     
     </div>
     
   );

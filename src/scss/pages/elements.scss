@@ -1,3 +1,8 @@
+// Common code comes here.
+.display-lineBreak { 
+    white-space: pre-line;
+}
+
 // headings
 .heading-1{
     font-size: 32px;
@@ -17,15 +22,35 @@
 }
 
 // code section
-.display-lineBreak { 
-    white-space: pre-line;
-    .code-background{
-        background-color:$code-block;
-        padding: 15px;
-        border-radius: 5px;
-        color: $white;
-        font-size: 14px;
+.code{
+    background-color:$black;
+    border-left: 5px solid $code-block;
+    padding: 15px;
+    border-radius: 5px;
+    color: $border-color;
+
+    p{
+        margin: 0 10px 0 10px;
+        font-family: monospace;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+// quotes section
+.quotes{
+    background-color:$border-color;
+    border-left: 5px solid $code-block;
+    padding: 10px;
+
+    .inner-quotes{
+        font-size: 25px;
+    }
+
+    p{
+        margin: -10px 10px 0 10px;
+        font-family: Atrament;
+        font-size: 16px;
         font-weight: 500;
     }
 }
-  

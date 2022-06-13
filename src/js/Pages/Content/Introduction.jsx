@@ -1,6 +1,7 @@
 import React from 'react';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
 import {Code} from '../../ReusableComponents/Code.jsx';
+import {Quotes} from '../../ReusableComponents/Quotes.jsx';
 
 export default function Introduction() {
     const h1 = "hello world";
@@ -9,6 +10,9 @@ export default function Introduction() {
     const h4 = "test heading four";
     const code = `test 
     declaration`;
+    const quotes = `testing the quotes...
+    hello world
+    test the migration`;
 
 
     return <div>
@@ -25,13 +29,18 @@ export default function Introduction() {
                 <H3 h3={h3}/>
                 <br/>
                 <H4 h4={h4}/>
+                <br/>
+                <Quotes quotes={quotes}/>
             </div>
         </div>
         <div className="right-content-wrapper">
             <div className="right-content-display">
-                The submenu will be displayed here. (Introduction)
-                <br/>
-                <a href="#hash_link_test">Click here to see the content below.</a>
+                {/* <div className="headding">Page Navigation</div> */}
+                <ul>
+                    <li><a href="#hash_link_test">Click here to see the content below.</a></li>
+                    <li><a href="">Section 2</a></li>
+                    <li><a href="">another Section </a></li>
+                </ul>
             </div>
         </div>
     </div>

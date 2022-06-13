@@ -7,7 +7,7 @@ export default function Navigation()
     return <div>
         <nav className="navigation">
             <a href="/" className="brand-name">
-                PHP Tutorial
+                <p>PHP Tutorial</p>
             </a>
             <div className="navigation-menu">
                 <ul>

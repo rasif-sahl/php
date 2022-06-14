@@ -23,11 +23,11 @@
 
 // code section
 .code{
-    background-color:$black;
-    border-left: 5px solid $code-block;
+    background-color:$box-background;
+    border-left: 5px solid $box-border;
     padding: 15px;
     border-radius: 5px;
-    color: $border-color;
+    color: $black;
 
     p{
         margin: 0 10px 0 10px;
@@ -39,18 +39,41 @@
 
 // quotes section
 .quotes{
-    background-color:$border-color;
-    border-left: 5px solid $code-block;
+    background-color:$box-background;
+    border-left: 5px solid $box-border;
     padding: 10px;
+    color: $black;
 
     .inner-quotes{
         font-size: 25px;
+        color: $black;
     }
 
     p{
         margin: -10px 10px 0 10px;
-        font-family: Atrament;
+        font-family: monospace;
         font-size: 16px;
         font-weight: 500;
+    }
+}
+
+.youtube{
+    margin-top: 10px;
+    hr{
+        margin: 20px 0 20px 0;
+        border-top: 4px solid $box-background;
+        border-radius: 20px;
+    }
+    .youtube-p{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 24px;
+        color: $box-background;
+    }
+    .youtube-iframe{
+        margin: auto;
+        width: 67%;
     }
 }

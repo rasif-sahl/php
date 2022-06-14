@@ -16,7 +16,7 @@ export default function Introduction() {
     hello world
     test the migration`;
 
-    const youTube = <iframe width="560" height="315" src="https://www.youtube.com/embed/cB_GurouJcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    const youTube = <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj7AkwujeOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
     return <div>

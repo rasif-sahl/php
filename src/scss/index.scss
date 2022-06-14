@@ -1,10 +1,11 @@
 @import './colors.scss';
+@import './components.scss';
 
 body {
   margin: 0;
   // background-color: $border-color;
   background-color: $color-background;
-  font-family: 'system-ui','Poppins','Roboto';
+  font-family: $system-ui, $poppins, $roboto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

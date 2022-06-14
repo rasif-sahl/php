@@ -1,4 +1,5 @@
 @import '../colors.scss';
+@import '../components.scss';
 
 .navigation {
     height: 40px;
@@ -10,7 +11,7 @@
     // background-color: $color-main-background;
     color: $text-color;
     box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
-    font-weight: bold;
+    font-weight: $font-weight-bold;
     border-bottom: 3px solid $border-color;
 
 
@@ -18,7 +19,7 @@
         text-decoration: none;
         margin-left: 1rem;
         color: $title;
-        font-size: 30px;
+        font-size: $font-32;
         // -webkit-text-stroke: 0.5px $text-color;
     }
 

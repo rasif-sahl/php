@@ -1,6 +1,7 @@
 @import '../colors.scss';
 @import '../components.scss';
 @import './elements.scss';
+@import './welcome.scss';
 
 .content-wrapper{
     margin-left: 300px;
@@ -19,6 +20,57 @@
         color: $text-color;
         font-weight: $font-weight-500;
         padding-bottom: $padding-bottom-60;
+    }
+
+    .welcome-animation{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        padding: 20px;
+
+        .inner-animation{
+            // background-color: red;
+            // height: 100px;
+            // width: 100px;
+            transform: rotate(0deg);
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+          }
+          
+          .heart::before,
+          .heart::after {
+            content: "";
+            // background-color: red;
+            // height: 100px;
+            // width: 100px;
+            position: absolute;
+            border-radius: 50%;
+          }
+          
+          .heart::before {
+            top: -50px;
+            left: 0;
+          }
+          
+          .heart::after {
+            left: 50px;
+            top: 0;
+          }
+          
+          @keyframes heartbeat {
+            0% {
+              transform: scale(1) rotate(0);
+            }
+            20% {
+              transform: scale(1.25) rotate(0);
+            }
+            40% {
+              transform: scale(1.5) rotate(0);
+            }
+          }
+
+
     }
 }
 

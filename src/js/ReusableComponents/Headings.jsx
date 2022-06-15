@@ -4,6 +4,7 @@ export function H1({h1}) {
 
     return <div className="heading-1">
         {h1}
+        <hr/>
     </div>
 }
 

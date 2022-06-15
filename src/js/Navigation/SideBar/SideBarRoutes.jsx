@@ -16,6 +16,20 @@ export default function SideBarRoutes()
                 <li>
                     <Link to="/codingStyle">Coding Style</Link>
                 </li>
+                <li>
+                    <Link to="/programmingParadigms">Programming Paradigms</Link>
+                </li>
+                <li>
+                    <Link to="/dependencyManagement">Dependency Management</Link>
+                </li>
+                <li>
+                    <Link to="/codingPractices">Coding Practices</Link>
+                </li>
+
+                {/* this part is added for testing purposes */}
+                <li>
+                    <Link to="/test">Test</Link>
+                </li>
             </div>
         </ul>
     </div>

@@ -7,6 +7,12 @@
 .heading-1{
     font-size: $font-32;
     font-weight: $font-weight-800;
+    margin: 20px 0 0 0;
+    hr{
+        border-top: 4px solid $box-background;
+        border-radius: $border-radius-20;
+        margin: 15px 0 0 0;
+    }
 }
 .heading-2{
     font-size: $font-24;

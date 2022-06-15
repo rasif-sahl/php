@@ -3,7 +3,8 @@ import React from 'react';
 export function H1({h1}) {
 
     return <div className="heading-1">
-        {h1} content will be displayed here.
+        {h1}
+        <hr/>
     </div>
 }
 

@@ -1,0 +1,62 @@
+.welcome {
+    margin-left: 300px;
+    width: 78%;
+    height: 100%;
+    // background-color: $color-main-background;
+    // border-right: 3px solid $border-color;
+    // border-left: 3px solid $border-color;
+    display: block;
+    align-items: center;
+    overflow-y: auto;
+    position: absolute;
+
+    .content-display{
+        margin: 10px;
+        color: $text-color;
+        font-weight: $font-weight-500;
+        padding-bottom: $padding-bottom-60;
+
+        .welcome-top{
+            background-color: $color-main-background;
+            padding: 40px 0 40px 0;
+            border-radius: 20px;
+            margin: 20px 0 20px 0;
+            .nice-to-meet{
+                font-size: 32px;
+                padding: 0 24px 12px 200px;
+                font-weight: 600;
+            }
+            .quote{
+                padding: 0 24px 12px 200px;
+                font-weight: 900;
+                .quote-top{
+                    font-size: 50px;
+                }
+                .quote-bottom{
+                    font-size: 35px;
+                }
+            }
+            // .developed-by{
+            //     font-size:14px;
+            //     padding: 0 24px 12px 200px;
+            //     .name{
+                    
+            //     }
+            //     .company{
+                    
+            //     }
+            // }
+        }
+
+        // .welcome-heading{
+        //     margin: 50px 0 20px 0;
+            // hr{
+            //     border-top: 4px solid $box-background;
+            //     border-radius: $border-radius-20;
+            //     margin: 15px 0 0 0;
+            // }
+        // }
+    }
+
+}
+

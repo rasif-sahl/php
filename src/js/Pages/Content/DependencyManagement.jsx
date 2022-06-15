@@ -1,16 +1,20 @@
 import React from 'react';
-import '../../../scss/pages/sideBar.scss';
+import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
 import {Code} from '../../ReusableComponents/Code.jsx';
 import {Quotes} from '../../ReusableComponents/Quotes.jsx';
 import {YouTube} from '../../ReusableComponents/YouTube.jsx';
 
-export default function CodingStyle() {
+export default function DependencyManagement() {
     return <div>
         <div className="content-wrapper">
             <div className="content-display">
-                <a id="style_guide"><H1 h1="Code style guide" /></a>
-                <p>This is the Code style guide section.</p>
+                <a><H1 h1="Dependency Management" /></a>
+                <br/>
+                <a id="Composer_packgist"><H2 h2="Composer and Packgist" /></a>
+                <br/>
+                <a id="PEAR"><H2 h2="PEAR" /></a>
+                <br/>
 
             </div>
         </div>
@@ -18,7 +22,8 @@ export default function CodingStyle() {
             <div className="right-content-display">
                 {/* <div className="headding">Page Navigation</div> */}
                 <ul>
-                    <li><a href="#style_guide">Code style guide</a></li>
+                    <li><a href="#Composer_packgist">Composer and Packgist</a></li>
+                    <li><a href="#PEAR">PEAR</a></li>
                 </ul>
             </div>
         </div>

@@ -1,9 +1,6 @@
 import React from 'react';
 import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
-import {Code} from '../../ReusableComponents/Code.jsx';
-import {Quotes} from '../../ReusableComponents/Quotes.jsx';
-import {YouTube} from '../../ReusableComponents/YouTube.jsx';
 
 export default function DependencyManagement() {
     return <div>

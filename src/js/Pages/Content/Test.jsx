@@ -1,8 +1,18 @@
 import React from 'react';
 import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
+import {Code} from '../../ReusableComponents/Code.jsx';
+import {Quotes} from '../../ReusableComponents/Quotes.jsx';
+import {YouTube} from '../../ReusableComponents/YouTube.jsx';
 
-export default function ProgrammingParadigms() {
+export default function Test() {
+    const code= `code 
+    section`;
+    const quotes = `hello 
+    world`;
+
+    const youTube = <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj7AkwujeOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     return <div>
         <div className="content-wrapper">
             <div className="content-display">
@@ -10,11 +20,21 @@ export default function ProgrammingParadigms() {
                 <br/>
                 <a id="namespaces"><H2 h2="Namespaces" /></a>
                 <br/>
-                <a id="standard_php_library."><H2 h2="standard php library" /></a>
+                <a id="standard_php_library."><H3 h3="standard php library" /></a>
                 <br/>
-                <a id="command_line_interface."><H2 h2="Command line interface." /></a>
+                <a id="command_line_interface."><H4 h4="Command line interface." /></a>
                 <br/>
-                <a id="xdebug"><H2 h2="Xdebug" /></a>
+
+                <div>hello world</div>
+
+
+                <a id="xdebug"><Code code={code} /></a>
+                <br/>
+
+                <a><Quotes quotes={quotes} /></a>
+                <br/>
+
+                <a><YouTube youTube={youTube} /></a>
                 <br/>
 
             </div>

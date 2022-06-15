@@ -25,6 +25,11 @@ export default function SideBarRoutes()
                 <li>
                     <Link to="/codingPractices">Coding Practices</Link>
                 </li>
+
+                {/* this part is added for testing purposes */}
+                <li>
+                    <Link to="/test">Test</Link>
+                </li>
             </div>
         </ul>
     </div>

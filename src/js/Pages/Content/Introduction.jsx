@@ -1,13 +1,8 @@
 import React from 'react';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
-import {Code} from '../../ReusableComponents/Code.jsx';
-import {Quotes} from '../../ReusableComponents/Quotes.jsx';
-import {YouTube} from '../../ReusableComponents/YouTube.jsx';
 
 
 export default function Introduction() {
-
-    const youTube = <iframe width="560" height="315" src="https://www.youtube.com/embed/Xj7AkwujeOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     return <div>
         <div className="content-wrapper">

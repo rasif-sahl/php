@@ -13,6 +13,9 @@ import CodingPractices from './Pages/Content/CodingPractices.jsx';
 // New features
 import Latest from './Pages/NewFeatures/Latest.jsx';
 
+// Testing
+import Test from './Pages/Content/CodingPractices.jsx';
+
 function App() {
   return (
     <div>
@@ -28,6 +31,9 @@ function App() {
             <Route path="programmingParadigms" element={<ProgrammingParadigms />} />
             <Route path="dependencyManagement" element={<DependencyManagement />} />
             <Route path="codingPractices" element={<CodingPractices/>} />
+
+            {/* Test section */}
+            <Route path="test" element={<Test/>} />
           </Route>
           <Route path="/latest" element={<Latest />} />
         </Routes>

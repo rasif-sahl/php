@@ -49,9 +49,7 @@
     //   }
     li {
         list-style-type: none;
-        padding: 1rem;
         border-bottom: 3px solid $border-color;
-        line-height: 7px;
     }
     li a {
         text-decoration: none;
@@ -59,10 +57,14 @@
         width: 100%;
         color: $text-color;
         font-weight: $font-weight-600;
+        padding: 1rem;
+        line-height: 7px;
     }
     
-    li.active {
+    .active {
         background-color: $border-color;
+        padding: 1rem;
+        line-height: 7px;
     }
         
     li:hover {

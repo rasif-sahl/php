@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 export default function SideBarRoutes() 
@@ -8,27 +8,36 @@ export default function SideBarRoutes()
         <ul>
             <div className="sideBar-list">
                 <li>
-                    <Link to="/">Welcome</Link>
+                    <NavLink 
+                    // style={({ isActive }) => ({
+                    //     color: isActive ? '#fff' : '#545e6f',
+                    //     background: isActive ? '#7600dc' : '#f0f0f0',
+                    //     })} 
+
+                    // className={({ isActive }) => { isActive ? "isActive" : null  }} 
+
+                    // activeClassName="isActive"
+                    to="/">Welcome</NavLink>
                 </li>
                 <li>
-                    <Link to="/introduction">Introduction</Link>
+                    <NavLink to="/introduction">Introduction</NavLink>
                 </li>
                 <li>
-                    <Link to="/codingStyle">Coding Style</Link>
+                    <NavLink to="/codingStyle">Coding Style</NavLink>
                 </li>
                 <li>
-                    <Link to="/programmingParadigms">Programming Paradigms</Link>
+                    <NavLink to="/programmingParadigms">Programming Paradigms</NavLink>
                 </li>
                 <li>
-                    <Link to="/dependencyManagement">Dependency Management</Link>
+                    <NavLink to="/dependencyManagement">Dependency Management</NavLink>
                 </li>
                 <li>
-                    <Link to="/codingPractices">Coding Practices</Link>
+                    <NavLink to="/codingPractices">Coding Practices</NavLink>
                 </li>
 
                 {/* this part is added for testing purposes */}
                 <li>
-                    <Link to="/test">Test</Link>
+                    <NavLink to="/test">Test</NavLink>
                 </li>
             </div>
         </ul>

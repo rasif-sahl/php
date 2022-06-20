@@ -8,16 +8,7 @@ export default function SideBarRoutes()
         <ul>
             <div className="sideBar-list">
                 <li>
-                    <NavLink 
-                    // style={({ isActive }) => ({
-                    //     color: isActive ? '#fff' : '#545e6f',
-                    //     background: isActive ? '#7600dc' : '#f0f0f0',
-                    //     })} 
-
-                    // className={({ isActive }) => { isActive ? "isActive" : null  }} 
-
-                    // activeClassName="isActive"
-                    to="/">Welcome</NavLink>
+                    <NavLink to="/">Welcome</NavLink>
                 </li>
                 <li>
                     <NavLink to="/introduction">Introduction</NavLink>

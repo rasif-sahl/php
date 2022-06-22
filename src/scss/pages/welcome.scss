@@ -18,7 +18,7 @@
     }
 
     .content-display{
-        margin: 10px;
+        margin: 10px 10px 40px 10px;
         color: $text-color;
         font-weight: $font-weight-500;
         padding-bottom: $padding-bottom-60;
@@ -82,3 +82,15 @@
 
 }
 
+.welcome::-webkit-scrollbar {
+    width: 10px;
+}
+
+.welcome::-webkit-scrollbar-thumb {
+    background-color: $scrollbar;
+    // box-shadow: inset 0 0 15px grey; 
+    border-radius: 20px;
+}
+.welcome::-webkit-scrollbar-track-piece {
+    background-color: $scrollbarTrackPiece;
+}

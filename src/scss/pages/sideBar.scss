@@ -5,7 +5,6 @@
 .sidebar {
     height: 100%;
     width: 20%;
-    height: 100%;
     // padding: 0.5rem 0rem;
     background-color: $color-main-background;
     color: $text-color;
@@ -32,6 +31,7 @@
         display: block;
         padding: 0;
         margin: 0;
+        margin-bottom:100px;
     }
 
     // .column-1 {
@@ -71,4 +71,8 @@
         background-color: $border-color;
     }
 
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
 }

@@ -10,6 +10,13 @@
     overflow-y: auto;
     position: absolute;
 
+    ul{
+        margin: 25px 0 0 0;
+        li{
+            margin: 15px 0 0 0;
+        }
+    }
+
     .content-display{
         margin: 10px;
         color: $text-color;
@@ -56,6 +63,21 @@
             //     margin: 15px 0 0 0;
             // }
         // }
+
+        .introPage{
+            margin: 25px 485px;
+            padding: 12px 10px;
+            border-radius: 20px;
+            background-color: $next-page-button;
+            text-align: center;
+
+            .link{
+                color: $color-background;
+                text-decoration: none;
+                display: inline-block;
+                font-weight: $font-weight-800;
+            }
+        }
     }
 
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
+import {Pagination} from '../../ReusableComponents/Pagination.jsx';
 
 export default function ProgrammingParadigms() {
     return <div>
@@ -16,6 +17,8 @@ export default function ProgrammingParadigms() {
                 <br/>
                 <a id="xdebug"><H2 h2="Xdebug" /></a>
                 <br/>
+
+                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
 
             </div>
         </div>

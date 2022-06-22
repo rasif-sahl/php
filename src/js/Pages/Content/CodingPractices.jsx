@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
+import {Pagination} from '../../ReusableComponents/Pagination.jsx';
 
 export default function CodingPractices() {
     return <div>
@@ -18,6 +19,8 @@ export default function CodingPractices() {
                 <br/>
                 <a id="Internationalization_Localization"><H2 h2="Internationalization and Localization" /></a>
                 <br/>
+
+                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
 
             </div>
         </div>

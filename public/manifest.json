@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "PHP Tutorial By Rasif Sahl",
+  "name": "Complete Advance PHP Tutorial By Rasif Sahl",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#DBDFFD",
+  "background_color": "#DBDFFD",
+  "description": "To improve the skills of existing PHP developers and who are new to the world of PHP"
 }

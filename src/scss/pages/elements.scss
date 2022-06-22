@@ -20,7 +20,20 @@
 }
 .heading-3{
     font-size: $font-20;
-    font-weight: $font-weight-600;
+    font-weight: $font-weight-700;
+    margin: 30px 0 10px 0;
+    .arrow {
+        border: solid $title;
+        border-width: 0 3px 3px 0;
+        background-color: $title;
+        display: inline-block;
+        padding: 2px;
+        margin-right:5px;
+        .right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+    }
 }
 .heading-4{
     font-size: $font-18;
@@ -81,5 +94,43 @@
     .youtube-iframe{
         margin: auto;
         width: 67%;
+    }
+}
+
+// Pagination
+.pagination{
+    width:100%;
+    text-align: center;
+   
+    .previous{
+      background-color: $next-page-button;
+      text-align: center;
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 16px;
+
+      .previousLink{
+        color: $color-background;
+        text-decoration: none;
+        // display: inline-block;
+        font-weight: $font-weight-800;
+      }
+    }
+    .next{
+      background-color: $next-page-button;
+      text-align: center;
+      display: inline-block;
+      margin-left: 500px;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 16px;
+
+      .nextLink{
+        color: $color-background;
+        text-decoration: none;
+        // display: inline-block;
+        font-weight: $font-weight-800;
+      }
     }
 }

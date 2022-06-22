@@ -18,7 +18,7 @@ export function H2({h2}) {
 export function H3({h3}) {
 
     return <div className="heading-3">
-        {h3}
+        <i class="arrow right"></i> {h3}
     </div>
 }
 

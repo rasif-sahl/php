@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
+import {Pagination} from '../../ReusableComponents/Pagination.jsx';
 
 export default function DependencyManagement() {
     return <div>
@@ -12,6 +13,8 @@ export default function DependencyManagement() {
                 <br/>
                 <a id="PEAR"><H2 h2="PEAR" /></a>
                 <br/>
+
+                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
 
             </div>
         </div>

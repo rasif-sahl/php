@@ -4,6 +4,7 @@ import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
 import {Code} from '../../ReusableComponents/Code.jsx';
 import {Quotes} from '../../ReusableComponents/Quotes.jsx';
 import {YouTube} from '../../ReusableComponents/YouTube.jsx';
+import {Pagination} from '../../ReusableComponents/Pagination.jsx';
 
 export default function Test() {
     const code= `code 
@@ -36,6 +37,8 @@ export default function Test() {
 
                 <a><YouTube youTube={youTube} /></a>
                 <br/>
+
+                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
 
             </div>
         </div>

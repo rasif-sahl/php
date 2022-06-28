@@ -17,7 +17,14 @@
 .heading-2{
     font-size: $font-24;
     font-weight: $font-weight-700;
+    hr{
+        border-radius: 20px;
+        border-top: 2px solid #9ba3eb;
+        margin: 10px 0 0;
+        width: 5%;
+    }
 }
+
 .heading-3{
     font-size: $font-20;
     font-weight: $font-weight-700;

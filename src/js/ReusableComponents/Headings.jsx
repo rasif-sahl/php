@@ -12,6 +12,7 @@ export function H2({h2}) {
 
     return <div className="heading-2">
         {h2}
+        <hr/>
     </div>
 }
 

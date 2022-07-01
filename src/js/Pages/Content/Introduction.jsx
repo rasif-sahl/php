@@ -106,19 +106,50 @@ export default function Introduction() {
                 </p>
                 <br/>
 
-
-
-
-
                 {/* Windows Setup */}
                 <a id="window_setup"><H2 h2="Windows setup" /></a>
+                <p>
+                    You can download the binary version of <a href="https://windows.php.net/download/">windows.php.net/download/</a>
+                    After the extraction of the php it is recommended to add the path to the root of your php folder. Where the php.exe
+                    is located.
+                </p>
+                <p>
+                    For learning and local development you can use built in web-servers with php 5.4 and higher.
+                    So then you don't have to worry about any configurations.
+                </p>
+                <p>
+                    If you need the webserver and MySql together then you can use tools such as XAMPP, EasyPHP, OpenServer and WAMP will help
+                    to get windows development environment up and running.
+                </p>
+                <p>
+                    That said, these tools will be a little different from production so be careful of environment differences if you are working on Windows and deploying to Linux.
+                </p>
+                <p>
+                    Generally running your application on different environment in development and production can lead to strange bugs popping up when you go live. 
+                    If you are developing on Windows and deploying to anything non-Windows then you should consider using a Virtual Machine.
+                </p>
                 <br/>
 
                 {/* Common Directory Structure */}
                 <a id="directory_structure"><H2 h2="Common directory structure" /></a>
+                <p>
+                    A common question most new developers ask is "How can I manege my directory structure?"
+                </p>
+                <p>
+                    For security reasons, configuration files should not be accessible by a site’s visitors;
+                    therefore, public scripts are kept in a public directory and private configurations and data are kept outside of that directory.
+                </p>
+                <p>
+                    For each team, CMS, or framework one works in, a standard directory structure is used by each of those entities. 
+                    However, if one is starting a project alone, knowing which filesystem structure to use can be daunting.
+                </p>
+                <p>
+                    So as an best practice DocumentRoot should be pointed to the public/ directory. PHPUnit test should be in the test/ directory and the
+                    dependencies which are download from the composer should be in the vendor/ directory. For more information <a href="https://github.com/php-pds/skeleton">Standard PHP Package Skeleton</a>
+                </p>
                 <br/>
+                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
             </div>
-            <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
         </div>
 
         <div className="right-content-wrapper">

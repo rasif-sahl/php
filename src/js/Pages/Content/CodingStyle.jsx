@@ -155,7 +155,7 @@ export default function CodingStyle() {
                 <Code code={constants}/>
                 <br/>
                 <br/>
-                
+
                 <H4 h4="2. Properties"/>
                 <p>
                     This guide intentionally avoids any recommendation regarding the use of $StudlyCaps, $camelCase, or $under_score property names.
@@ -168,10 +168,53 @@ export default function CodingStyle() {
                     Method names MUST be declared in camelCase().
                 </p>
 
+
+
+
+
+
+
                 <a id="psr_12"><H2 h2="PSR-12" /></a>
+
+
+
+
+
+
+
+
+
                 <a id="psr_4"><H2 h2="PSR-4" /></a>
+
+
+
+
+
+
+
+
+
+
+
                 <a id="pear_coding"><H2 h2="PEAR Coding Standards" /></a>
+
+
+
+
+
+
+
+
+
+                
                 <a id="symfony_coding"><H2 h2="Symfony Coding Standards" /></a>
+
+
+
+
+
+
+
 
                 <a id="supplements"><H2 h2="Supplements" /></a>
                 <p>

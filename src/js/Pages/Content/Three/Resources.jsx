@@ -25,7 +25,7 @@ export default function Resources() {
                 <a id="books"><H2 h2="Books" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/documentingYourCode" previous="PHPDoc"  nextLink="/community" next="Community"/>
 
             </div>
         </div>

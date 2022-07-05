@@ -20,7 +20,7 @@ export default function CodingPractices() {
                 <a id="Internationalization_Localization"><H2 h2="Internationalization and Localization" /></a>
                 <br/>
 
-                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
+                <Pagination previousLink="/dependencyManagement" previous="Dependency"  nextLink="/dependencyInjection" next="Injection"/>
 
             </div>
         </div>

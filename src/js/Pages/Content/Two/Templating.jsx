@@ -19,7 +19,7 @@ export default function Templating() {
                 <a id="further_reading"><H2 h2="Further Reading" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/databases" previous="Databases"  nextLink="/errorsAndExceptions" next="Exceptions"/>
 
             </div>
         </div>

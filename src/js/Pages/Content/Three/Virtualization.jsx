@@ -15,7 +15,7 @@ export default function Virtualization() {
                 <a id="docker"><H2 h2="Docker" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/serversAndDeployment" previous="Deployment"  nextLink="/caching" next="Caching"/>
 
             </div>
         </div>

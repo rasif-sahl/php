@@ -13,7 +13,7 @@ export default function DocumentingYourCode() {
                 <a id="PHPDoc"><H2 h2="PHPDoc" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/caching" previous="Caching"  nextLink="/resources" next="Resources"/>
 
             </div>
         </div>

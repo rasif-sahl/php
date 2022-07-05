@@ -15,7 +15,7 @@ export default function Caching() {
                 <a id="object_caching"><H2 h2="Object Caching" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/virtualization" previous="Virtualization"  nextLink="/documentingYourCode" next="PHPDoc"/>
 
             </div>
         </div>

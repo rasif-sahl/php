@@ -18,7 +18,7 @@ export default function ProgrammingParadigms() {
                 <a id="xdebug"><H2 h2="Xdebug" /></a>
                 <br/>
 
-                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
+                <Pagination previousLink="/codingStyle" previous="Coding Style"  nextLink="/dependencyManagement" next="Dependency"/>
 
             </div>
         </div>

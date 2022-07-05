@@ -148,7 +148,7 @@ export default function Introduction() {
                     dependencies which are download from the composer should be in the vendor/ directory. For more information <a href="https://github.com/php-pds/skeleton">Standard PHP Package Skeleton</a>
                 </p>
                 <br/>
-                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
+                <Pagination previousLink="/" previous="Welcome"  nextLink="/codingStyle" next="Coding Style"/>
             </div>
         </div>
 

@@ -14,7 +14,7 @@ export default function DependencyManagement() {
                 <a id="PEAR"><H2 h2="PEAR" /></a>
                 <br/>
 
-                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
+                <Pagination previousLink="/programmingParadigms" previous="Paradigms"  nextLink="/codingPractices" next="Coding Practices"/>
 
             </div>
         </div>

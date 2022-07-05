@@ -241,7 +241,7 @@ export default function CodingStyle() {
                     English is preferred for all symbol names and code infrastructure. Comments may be written in any language easily readable by all current and future parties who may be working on the codebase.
                 </p>
 
-                <Pagination previousLink="/" previous="Introduction"  nextLink="/codingStyle" next="Coding Style"/>
+                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/programmingParadigms" next="Paradigms"/>
 
             </div>
         </div>

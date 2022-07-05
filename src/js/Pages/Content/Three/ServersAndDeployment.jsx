@@ -19,7 +19,7 @@ export default function ServersAndDeployment() {
                 <a id="building_your_application"><H2 h2="Building Your Application" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/testing" previous="Testing"  nextLink="/virtualization" next="Virtualization"/>
 
             </div>
         </div>

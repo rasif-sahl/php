@@ -17,7 +17,7 @@ export default function Community() {
                 <a id="elephpants"><H2 h2="Elephpants" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                {/* <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/> */}
 
             </div>
         </div>

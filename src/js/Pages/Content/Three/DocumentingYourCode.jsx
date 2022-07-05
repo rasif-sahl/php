@@ -10,11 +10,7 @@ export default function DocumentingYourCode() {
             <div className="content-display">
                 <a><H1 h1="Documenting your Code" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
-                <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
-                <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="PHPDoc"><H2 h2="PHPDoc" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
@@ -24,10 +20,7 @@ export default function DocumentingYourCode() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#PHPDoc">PHPDoc</a></li>
                 </ul>
             </div>
         </div>

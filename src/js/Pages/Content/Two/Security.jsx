@@ -18,7 +18,7 @@ export default function Security() {
                 <br/>
                 <a id="register_globals"><H2 h2="Register Globals" /></a>
                 <br/>
-                <a id="error_reporting."><H2 h2="Error Reporting" /></a>
+                <a id="error_reporting"><H2 h2="Error Reporting" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>

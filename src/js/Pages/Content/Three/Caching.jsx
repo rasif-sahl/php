@@ -10,11 +10,9 @@ export default function Caching() {
             <div className="content-display">
                 <a><H1 h1="Caching" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="opcode_cache"><H2 h2="Opcode Cache" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
-                <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="object_caching"><H2 h2="Object Caching" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
@@ -24,10 +22,8 @@ export default function Caching() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#opcode_cache">Opcode Cache</a></li>
+                    <li><a href="#object_caching">Object Caching</a></li>
                 </ul>
             </div>
         </div>

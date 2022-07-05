@@ -10,11 +10,13 @@ export default function ServersAndDeployment() {
             <div className="content-display">
                 <a><H1 h1="Servers and Deployment" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="PaaS"><H2 h2="Platform as a Service (PaaS)" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="virtual_dedicated_servers"><H2 h2="Virtual or Dedicated Servers" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="shared_servers"><H2 h2="Shared Servers" /></a>
+                <br/>
+                <a id="building_your_application"><H2 h2="Building Your Application" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
@@ -24,10 +26,10 @@ export default function ServersAndDeployment() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#PaaS">Platform as a Service (PaaS)</a></li>
+                    <li><a href="#virtual_dedicated_servers">Virtual or Dedicated Servers</a></li>
+                    <li><a href="#shared_servers">Shared Servers</a></li>
+                    <li><a href="#building_your_application">Building Your Application</a></li>
                 </ul>
             </div>
         </div>

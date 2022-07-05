@@ -10,11 +10,15 @@ export default function Security() {
             <div className="content-display">
                 <a><H1 h1="Security" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="web_application_security"><H2 h2="Web Application Security" /></a>
                 <br/>
-                <a id="standard_php_library."><H3 h3="standard php library" /></a>
+                <a id="password_hashing"><H2 h2="Password Hashing" /></a>
                 <br/>
-                <a id="command_line_interface."><H4 h4="Command line interface." /></a>
+                <a id="data_filtering"><H2 h2="Data Filtering" /></a>
+                <br/>
+                <a id="register_globals"><H2 h2="Register Globals" /></a>
+                <br/>
+                <a id="error_reporting."><H2 h2="Error Reporting" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
@@ -24,10 +28,11 @@ export default function Security() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#web_application_security">Web Application Security</a></li>
+                    <li><a href="#password_hashing">Password Hashing</a></li>
+                    <li><a href="#data_filtering">Data Filtering</a></li>
+                    <li><a href="#register_globals">Register Globals</a></li>
+                    <li><a href="#error_reporting">Error Reporting</a></li>
                 </ul>
             </div>
         </div>

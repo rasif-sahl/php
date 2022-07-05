@@ -10,11 +10,13 @@ export default function DependencyInjection() {
             <div className="content-display">
                 <a><H1 h1="Dependency Injection" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="basic_concept"><H2 h2="Basic Concept" /></a>
                 <br/>
-                <a id="standard_php_library."><H3 h3="standard php library" /></a>
+                <a id="complex_problem"><H2 h2="Complex Problem" /></a>
                 <br/>
-                <a id="command_line_interface."><H4 h4="Command line interface." /></a>
+                <a id="containers"><H2 h2="Containers" /></a>
+                <br/>
+                <a id="further_reading"><H2 h2="Further Reading" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
@@ -24,10 +26,10 @@ export default function DependencyInjection() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#basic_concept">Basic Concept</a></li>
+                    <li><a href="#complex_problem">Complex Problem</a></li>
+                    <li><a href="#containers">Containers</a></li>
+                    <li><a href="#further_reading">Further Reading</a></li>
                 </ul>
             </div>
         </div>

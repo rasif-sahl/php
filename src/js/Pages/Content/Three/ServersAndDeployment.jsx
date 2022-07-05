@@ -12,9 +12,9 @@ export default function ServersAndDeployment() {
                 <br/>
                 <a id="namespaces"><H2 h2="Namespaces" /></a>
                 <br/>
-                <a id="standard_php_library."><H3 h3="standard php library" /></a>
+                <a id="namespaces"><H2 h2="Namespaces" /></a>
                 <br/>
-                <a id="command_line_interface."><H4 h4="Command line interface." /></a>
+                <a id="namespaces"><H2 h2="Namespaces" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>

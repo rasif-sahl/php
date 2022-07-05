@@ -10,11 +10,13 @@ export default function Databases() {
             <div className="content-display">
                 <a><H1 h1="Databases" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="MySQL_extension"><H2 h2="MySQL Extension" /></a>
                 <br/>
-                <a id="standard_php_library."><H3 h3="standard php library" /></a>
+                <a id="PDO_extension"><H2 h2="PDO Extension" /></a>
                 <br/>
-                <a id="command_line_interface."><H4 h4="Command line interface." /></a>
+                <a id="interacting_with_databases"><H2 h2="Interacting with Databases" /></a>
+                <br/>
+                <a id="abstraction_layers"><H2 h2="Abstraction Layers" /></a>
                 <br/>
 
                 <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
@@ -24,10 +26,10 @@ export default function Databases() {
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#MySQL_extension">MySQL Extension</a></li>
+                    <li><a href="#PDO_extension">PDO Extension</a></li>
+                    <li><a href="#interacting_with_databases">Interacting with Databases</a></li>
+                    <li><a href="#abstraction_layers">Abstraction Layers</a></li>
                 </ul>
             </div>
         </div>

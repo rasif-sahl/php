@@ -1,4 +1,4 @@
-# Content
+# Reusable Code
 
 These are the type of content what is there in our application.
 
@@ -11,12 +11,20 @@ These are the type of content what is there in our application.
 ## Code
 * `code` - <Code code="hello world" / >
 
-## Banner
-* `banner` - <Banner banner="hello world" / >
-## HashLinks
-* `hash` - <HashLinks hashLinks="hello world" / >
 ## Quotes
+
+This is to display a section which someone else has mentioned or quoted. (`"hello world"`)
+
 * `quotes` - <Quotes quotes="hello world" / >
+
 ## Youtube
 * `youtube` - <Youtube youtube="hello world" / >
 
+## Pagination
+* `Pagination` -  < Pagination previousLink="/introduction" previous="Introduction"  nextLink="/programmingParadigms" next="Paradigms"/>
+
+
+# Upcoming
+
+## Banner
+* `banner` - <Banner banner="hello world" / >

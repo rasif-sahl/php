@@ -19,7 +19,7 @@ export default function DependencyInjection() {
                 <a id="further_reading"><H2 h2="Further Reading" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/codingPractices" previous="Coding Practices"  nextLink="/databases" next="Databases"/>
 
             </div>
         </div>

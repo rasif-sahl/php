@@ -15,7 +15,7 @@ export default function ErrorsAndExceptions() {
                 <a id="Exceptions"><H3 h3="Exceptions" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/templating" previous="Templating"  nextLink="/security" next="Security"/>
 
             </div>
         </div>

@@ -17,7 +17,7 @@ export default function Testing() {
                 <a id="complementary_testing_tools"><H2 h2="Complementary Testing Tools" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/security" previous="Security"  nextLink="/serversAndDeployment" next="Deployment"/>
 
             </div>
         </div>

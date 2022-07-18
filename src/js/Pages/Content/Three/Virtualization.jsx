@@ -10,24 +10,20 @@ export default function Virtualization() {
             <div className="content-display">
                 <a><H1 h1="Virtualization" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="vagrant"><H2 h2="Vagrant" /></a>
                 <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
-                <br/>
-                <a id="namespaces"><H2 h2="Namespaces" /></a>
+                <a id="docker"><H2 h2="Docker" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/serversAndDeployment" previous="Deployment"  nextLink="/caching" next="Caching"/>
 
             </div>
         </div>
         <div className="right-content-wrapper">
             <div className="right-content-display">
                 <ul>
-                    <li><a href="#Namespaces">Namespaces</a></li>
-                    <li><a href="#standard_php_library">Standard php library</a></li>
-                    <li><a href="#command_line_interface">Command line interface.</a></li>
-                    <li><a href="#xdebug">Xdebug</a></li>
+                    <li><a href="#vagrant">Vagrant</a></li>
+                    <li><a href="#docker">Docker</a></li>
                 </ul>
             </div>
         </div>

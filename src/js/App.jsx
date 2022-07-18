@@ -7,7 +7,7 @@ import Footer from "./Footer/Footer.jsx";
 import Welcome from './Pages/Content/Welcome.jsx';
 import Introduction from './Pages/Content/Introduction.jsx';
 import CodingStyle from './Pages/Content/CodingStyle.jsx';
-import ProgrammingParadigms from './Pages/Content/ProgrammingParadigms.jsx';
+import LanguageHighlights from './Pages/Content/LanguageHighlights.jsx';
 import DependencyManagement from './Pages/Content/DependencyManagement.jsx';
 import CodingPractices from './Pages/Content/CodingPractices.jsx';
 
@@ -42,7 +42,7 @@ function App() {
             <Route path="" element={<Welcome />} />
             <Route path="introduction" element={<Introduction />} />
             <Route path="codingStyle" element={<CodingStyle/>} />
-            <Route path="programmingParadigms" element={<ProgrammingParadigms />} />
+            <Route path="languageHighlights" element={<LanguageHighlights />} />
             <Route path="dependencyManagement" element={<DependencyManagement />} />
             <Route path="codingPractices" element={<CodingPractices/>} />
 

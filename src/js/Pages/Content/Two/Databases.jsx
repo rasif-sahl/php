@@ -19,7 +19,7 @@ export default function Databases() {
                 <a id="abstraction_layers"><H2 h2="Abstraction Layers" /></a>
                 <br/>
 
-                <Pagination previousLink="/introduction" previous="Introduction"  nextLink="/" next="Welcome"/>
+                <Pagination previousLink="/dependencyInjection" previous="Injection"  nextLink="/templating" next="Templating"/>
 
             </div>
         </div>

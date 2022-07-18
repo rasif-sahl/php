@@ -3,11 +3,18 @@ import '../../../scss/pages/main.scss';
 import {H1, H2, H3, H4} from '../../ReusableComponents/Headings.jsx';
 import {Pagination} from '../../ReusableComponents/Pagination.jsx';
 
-export default function ProgrammingParadigms() {
+export default function LanguageHighlights() {
     return <div>
         <div className="content-wrapper">
             <div className="content-display">
-                <a><H1 h1="Programming Paradigms" /></a>
+                <a><H1 h1="Language Highlights" /></a>
+                <br/>
+                <a id="programmingParadigms"><H2 h2="Programming Paradigms" /></a>
+                <p>
+                    PHP is a flexible, dynamic language that supports a variety of programming techniques. 
+                    It has evolved dramatically over the years, notably adding a solid object-oriented model in PHP 5.0 (2004), 
+                    anonymous functions and namespaces in PHP 5.3 (2009), and traits in PHP 5.4 (2012).
+                </p>
                 <br/>
                 <a id="namespaces"><H2 h2="Namespaces" /></a>
                 <br/>
@@ -26,6 +33,7 @@ export default function ProgrammingParadigms() {
             <div className="right-content-display">
                 {/* <div className="headding">Page Navigation</div> */}
                 <ul>
+                    <li><a href="#programmingParadigms">Programming Paradigms</a></li>
                     <li><a href="#Namespaces">Namespaces</a></li>
                     <li><a href="#standard_php_library">Standard php library</a></li>
                     <li><a href="#command_line_interface">Command line interface.</a></li>

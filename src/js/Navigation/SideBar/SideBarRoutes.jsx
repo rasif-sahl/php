@@ -17,7 +17,7 @@ export default function SideBarRoutes()
                     <NavLink to="/codingStyle">Coding Style</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/programmingParadigms">Programming Paradigms</NavLink>
+                    <NavLink to="/languageHighlights">Language Highlights</NavLink>
                 </li>
                 <li>
                     <NavLink to="/dependencyManagement">Dependency Management</NavLink>

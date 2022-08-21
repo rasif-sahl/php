@@ -1,12 +1,39 @@
-import React from 'react';
+import React , { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-
+import { MdClose } from "react-icons/md"
+import { FiMenu } from "react-icons/fi"
 
 export default function SideBarRoutes() 
 {
+    const [navbarOpen, setNavbarOpen] = useState(false); 
+
+    const handleToggle = () => {
+        setNavbarOpen(!navbarOpen)
+    }
+
+    const closeMenu = () => {
+        setNavbarOpen(false)
+    }
+
     return <div>
-        <ul>
+        <button 
+            onClick={handleToggle} 
+            className="hamburger_icon"
+        >
+            {navbarOpen ? (
+                    <MdClose className="hamburger_close_icon" />
+                ) : (
+                    <FiMenu className="hamburger_open_icon"/>
+            )}
+        </button>
+
+        <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
             <div className="sideBar-list">
+
+                <li onClick={() => closeMenu()} className="hamburger_close_icon_list">
+                    <MdClose className="hamburger_close_icon" />
+                </li>
+
                 <li>
                     <NavLink to="/">Welcome</NavLink>
                 </li>

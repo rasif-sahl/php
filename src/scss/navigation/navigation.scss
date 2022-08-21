@@ -1,5 +1,6 @@
 @import '../colors.scss';
 @import '../components.scss';
+@import '../breakPoints/breakPoints.scss';
 
 .navigation {
     height: 40px;
@@ -46,5 +47,14 @@
     
     .navigation-menu li:hover {
         color: $border-color;
+    }
+
+    @include breakPoints("<=phone") {
+        .brand-name{
+            font-size: 24px;
+        }
+        .navigation-menu {
+            font-size: 14px;
+        }
     }
 }

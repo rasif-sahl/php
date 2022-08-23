@@ -2,6 +2,7 @@
 @import '../components.scss';
 @import './elements.scss';
 @import './welcome.scss';
+@import '../breakPoints/breakPoints.scss';
 
 .content-wrapper{
     margin-left: 300px;
@@ -32,12 +33,15 @@
       }
     }
 
-
     .content-display{
         margin: 10px 10px 70px 10px;
         color: $text-color;
         font-weight: $font-weight-500;
         padding-bottom: $padding-bottom-60;
+    }
+  
+    @include breakPoints("<=phone") {
+      display: none;
     }
 }
 
@@ -104,6 +108,10 @@
             }
         }
     
+    }
+
+    @include breakPoints("<=phone") {
+      display: none;
     }
 }
 

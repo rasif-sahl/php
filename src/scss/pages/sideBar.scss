@@ -1,5 +1,6 @@
 @import '../colors.scss';
 @import '../components.scss';
+@import '../breakPoints/breakPoints.scss';
 
 // this is the website which I found resources to develop the navbar - https://blog.logrocket.com/create-responsive-navbar-react-css/
 .sidebar {
@@ -34,19 +35,6 @@
         margin-bottom:100px;
     }
 
-    // .column-1 {
-    //     float: left;
-    //     width: 30%;
-    //     padding: 10px;
-    //     height: 300px; /* Should be removed. Only for demonstration */
-    // }
-
-    // .column-2 {
-    //     float: left;
-    //     width: 70%;
-    //     padding: 10px;
-    //     height: 300px; /* Should be removed. Only for demonstration */
-    //   }
     li {
         list-style-type: none;
         border-bottom: 3px solid $border-color;
@@ -69,6 +57,92 @@
         
     li:hover {
         background-color: $border-color;
+    }
+
+    .hamburger_icon{
+        display: none;
+    }
+    .hamburger_close_icon_list{
+        display: none;
+    }
+
+    @include breakPoints("<=phone") {
+        background-color: $color-background;
+        box-shadow: none;
+        margin: 0 0 0 0;
+        height: 35px;
+        width: 35px;
+        padding-bottom:0;
+
+        .navBar {
+            position: relative;
+        }
+        .navBar button {
+            position: fixed;
+            left: 40px;
+            top: 40px;
+            z-index: 10;
+            cursor: pointer;
+        }
+          
+        .menuNav {
+            list-style: none;
+            position: fixed;
+            top: 58px;
+            background: $color-main-background;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            width: 0;
+            overflow-y: scroll;
+            max-width: 60%;
+            z-index: 9;
+        }
+          
+        .menuNav.showMenu {
+            width: 100%;
+        }
+          
+        .sideBar-list {
+            display: block;
+            text-transform: uppercase;
+        }
+
+        li a {
+            text-decoration: none;
+            display: block;
+            width: 87%;
+            color: $black;
+            font-weight: 600;
+            font-size: 12px;
+        }
+
+        .hamburger_icon{
+            display: inline-block;
+            background-color: $black;
+            box-shadow: none;
+            border: none;
+            border-radius: 0px 0px 30px 30px;
+            z-index: 10;
+        }
+
+        .hamburger_close_icon_list{
+            display: inline-block;
+            border-bottom: none;
+        }
+
+        .hamburger_close_icon {
+            color: $black;
+            width: 20px;
+            height: 40px;
+            padding: 0 0 0 195px;
+        }
+
+        .hamburger_open_icon{
+            color: $white; 
+            width: 20px;
+            height: 25px;
+        }
     }
 
 }

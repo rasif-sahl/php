@@ -1,5 +1,6 @@
 # php
 
+Developers with a good php background now can help me to keep this tutorial up-to date with the content.
 This website is developed to share content about php.
 
 Folder | Contents

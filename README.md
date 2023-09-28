@@ -23,3 +23,8 @@ Folder | Contents
 * [Reusable Code Related Docs.](src/docs/REUSABLECODE.md)
 * [References Docs.](src/docs/REFERENCES.md)
 * [New Knowledge Docs.](src/docs/KNOWLEDGE.md)
+
+## Requirments
+* node version 16*
+* npm install
+* npm start
